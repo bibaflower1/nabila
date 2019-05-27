@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Meals For User</title>
+    <link rel="stylesheet" href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/css/normalize.css">
+    <link rel="stylesheet" href="./Show Meals For User_files/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/css/admin%20add%20meal.css">
+    <link rel="stylesheet" href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/css/user%20show%20meals.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/logo1.png">
+                <span>FoodEat</span>
+            </div>
+            <ul class="links">
+                <li><a href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html#">Home</a></li>
+                <li><a href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html#">Menu</a></li>
+                <li><a href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html#">About Us</a></li>
+                <li><a href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html#">Clients</a></li>
+                <li><a href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html#">Reservation</a></li>
+                <li><a href="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/user%20show%20meals.html#">Contact Us</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Slider -->
+
+    <div class="slider" style="padding-top: 179.5px;">
+        <div class="intro">
+            <div class="container">
+                <h1>Welcome </h1>
+                <p> Online Food Services</p>
+                <p>New Flavours</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Slider -->
+
+    <!-- Start Menu -->
+
+    <div class="menu">
+        <div class="container">
+            <h1>Restuarant Menu</h1>
+            <div class="meal">
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/meal1.jpg" alt="Burger">
+                    <ul>
+                        <li>Burgar</li>
+                        <li>With Slices Of Meat &amp; Cheese</li>
+                        <li>15 $</li>
+                        <button>Order Now</button>
+                    </ul>
+                </div>
+
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/meal2.jpg" alt="Steak">
+                    <ul>
+                        <li>Steak</li>
+                        <li>With Fresh Vegetables &amp; Juice</li>
+                        <li>35 $</li>
+                        <button>Order Now</button>
+                    </ul>
+                </div>
+
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/meal-5.jpg" alt="Grilled Chicken">
+                    <ul>
+                        <li>Grilled Chicken</li>
+                        <li>With Avocado &amp; Lettuce</li>
+                        <li>30 $</li>
+                        <button>Order Now</button>
+                    </ul>
+                </div>
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/meal6.jpg" alt="Grilled Chicken">
+                    <ul>
+                        <li>Potato With Bechamel</li>
+                        <li>With Spices &amp; Herbs</li>
+                        <li>20 $</li>
+                        <button>Order Now</button>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Menu -->
+
+    <!-- Start About-->
+
+    <div class="about" style="padding-top: 70.9767px;">
+        <div class="container">
+            <div class="manager">
+                <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/manager.jpg">
+            </div>
+            <div class="about-us">
+                <h1>About Us</h1>
+
+                <div class="feature">
+                    <div class="image">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Professinal Manager &amp; Team </h2>
+                        <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                            Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="image">
+                        <i class="fas fa-clock fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Accurate Appointments</h2>
+                        <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                            Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="image">
+                        <i class="fas fa-dollar-sign fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Appropriate Prices</h2>
+                        <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                            Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="image">
+                        <i class="fas fa-pepper-hot fa-2x"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Spicy Meals &amp; Multiple Choices</h2>
+                        <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                            Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+
+    <!-- End About -->
+
+    <!-- Start Clients -->
+
+    <div class="clients">
+        <h1>Our Clients</h1>
+        <div class="container">
+            <div class="client">
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/client1.png">
+                </div>
+                <p>Tasty And Fresh Meals,I liKe Work Staff </p>
+            </div>
+
+            <div class="client">
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/client2.png">
+                </div>
+                <p>I Like Their Respect For Appointments,And Their Accept Criticism </p>
+            </div>
+
+            <div class="client">
+                <div class="image">
+                    <img src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/images/client3.png">
+                </div>
+                <p>There Are Multiple Choices Of Meals,Spicy Food And Fresh Juice</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Clients -->
+
+    <!-- Start Footer -->
+
+    <footer>
+        <div class="container">
+            <p>2019 © FoodEat. All Rights Reserved. Designed And Coded By Coding Team For <span>Coretabs</span>
+                Competition</p>
+            <ul class="links">
+                <li><i class="fab fa-facebook-square fa-2x"></i></li>
+                <li><i class="fab fa-twitter-square fa-2x"></i></li>
+                <li><i class="fab fa-linkedin fa-2x"></i></li>
+                <li><i class="fab fa-google-plus-square fa-2x"></i></li>
+                <li><i class="fas fa-phone-square fa-2x"></i></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <script src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/js/jquery3.4.1.js"></script>
+    <script src="file:///D:/Bayan/Bayan%20Pages/Meals%20Services/Food%20Services/js/admin%20orders.js"></script>
+
+
+
+</body></html>

@@ -1,0 +1,51 @@
+{% extends 'store/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <!-- Start Menu -->
+
+    <div class="menu">
+        <div class="container">
+            <h1>Restuarant Menu</h1>
+            <div class="meal">
+                {% for food in foods %}
+                    <div class="image">
+                        <img src="{{ food.picture.url }}" alt=" {{ food.title }} ">
+                        <ul>
+                            <li>{{ food.title }}</li>
+                            <li> {{ food.description }}</li></li>
+                            <li>{{ food.price }} $</li>
+                            <a href= "{% url 'store:order' food_id=food.id %}"><button>Order Now</button></a>
+                        </ul>
+                    </div>
+                {% endfor %}
+                
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Menu -->
+
+    <!-- Start About-->
+
+    <div class="about">
+        <div class="container">
+            <div class="manager">
+                <img src="{% static 'images/manager.jpg' %}">
+            </div>
+            
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- End About -->
+
+    <!-- Start Clients -->
+
+    
+
+    <!-- End Clients -->
+
+    {% endblock %}

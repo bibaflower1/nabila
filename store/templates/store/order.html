@@ -1,0 +1,41 @@
+{% extends 'store/base.html' %}
+{% load static %}
+ {% block content %}
+            </div>
+                <a href="{% url 'store:order' food_id=food.id %}" style="text-decoration: none;">
+                    <h1>{{ food.title }}</h1>
+                </a>
+            <div class="clearfix"></div>
+        
+    <!-- End Header -->
+
+
+    <!-- Start Reservation -->
+
+    <div class="reservation">
+        <div class="container">
+            <a href="{% url 'store:order' food_id=food.id %}">
+                <img class="image"  src="{{ food.picture.url }}" alt="{{ food.title }}">
+            </a>
+            <form name="reservation" action="{% url 'store:order' food_id=food.id %}" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="{{ form.name.id_for_label }}" class="control-label">Name</label>
+                    {{form.name}}
+                </div>
+                <div class="form-group">
+                    <label for="{{ form.address.id_for_label }}" class="control-label">Address</label>
+                    {{form.address}}
+                </div>
+                <!--<input type="text" name="Full Name" value="" placeholder="Full Name" maxlength="30" id="name" required>
+                <input type="text" name="Address" value="" placeholder="Address" maxlength="30" id="address" required>
+                -->
+                 <input type="submit" value="Reserve Now">
+            </form>
+        
+        </div>
+    </div>
+
+    <!-- End Reservation -->
+
+   {% endblock %}

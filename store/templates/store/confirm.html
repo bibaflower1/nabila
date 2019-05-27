@@ -1,0 +1,9 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% block content %}
+
+<h1>Congratulations !!!!! The meal <em>{{food.title}}</em> is reserved for you now</h1>
+<img src="{% static 'images/appetit.jpg' %}" style="width:50%; height: 50%; margin:auto 20% auto;">
+
+
+{% endblock %}

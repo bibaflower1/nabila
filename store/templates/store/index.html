@@ -1,0 +1,168 @@
+{% extends 'store/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- Start Slider -->
+
+    <!-- Start Menu -->
+
+    <div class="slider">
+            <div class="intro">
+                <div class="container">
+                    <h1>Welcome </h1>
+                    <p> Online Food Services</p>
+                    <p>New Flavours</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- End Slider -->
+    
+        <!-- Start Menu -->
+    
+        <div class="menu">
+            <div class="container">
+                <h1>Restuarant Menu</h1>
+                <div class="meal">
+                    <div class="image">
+                        <img src="{% static 'images/meal1.jpg' %}" alt="Burger">
+                        <ul>
+                            <li>Burgar</li>
+                            <li>With Slices Of Meat &amp; Cheese</li>
+                            <li>15 $</li>
+                            <a href="{% url 'store:list' %}"><button>Show Meal</button></a>
+                        </ul>
+                    </div>
+    
+                    <div class="image">
+                        <img src="{% static 'images/meal2.jpg' %}" alt="Grilled Chicken">
+                        <ul>
+                            <li>Grilled Chicken</li>
+                            <li>With Avocado &amp; Lettuce</li>
+                            <li>30 $</li>
+                            <a href="{% url 'store:list' %}"><button>Show Meal</button></a>
+                        </ul>
+                    </div>
+    
+                    <div class="image">
+                        <img src="{% static 'images/meal1.jpg' %}" alt="Steak">
+                        <ul>
+                            <li>Steak</li>
+                            <li>With Fresh Vegetables &amp; Juice</li>
+                            <li>35 $</li>
+                            <a href="{% url 'store:list' %}"><button>Show Meal</button></a>
+                        </ul>
+                    </div>
+                    <div class="image">
+                        <img src="{% static 'images/meal2.jpg' %}" alt="Grilled Chicken">
+                        <ul>
+                            <li>Potato With Bechamel</li>
+                            <li>With Spices &amp; Herbs</li>
+                            <li>20 $</li>
+                            <a href="{% url 'store:list' %}"><button>Show Meal</button></a>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- End Menu -->
+    
+        <!-- Start About-->
+    
+        <div class="about">
+            <div class="container">
+                <div class="manager">
+                    <img src="{% static 'images/manager.jpg' %}">
+                </div>
+                <div class="about-us">
+                    <h1>About Us</h1>
+    
+                    <div class="feature">
+                        <div class="image">
+                            <i class="fas fa-users fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h2>Professinal Manager &amp; Team </h2>
+                            <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                                Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="image">
+                            <i class="fas fa-clock fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h2>Accurate Appointments</h2>
+                            <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                                Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="feature">
+                        <div class="image">
+                            <i class="fas fa-dollar-sign fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h2>Appropriate Prices</h2>
+                            <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                                Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="feature">
+                        <div class="image">
+                            <i class="fas fa-pepper-hot fa-2x"></i>
+                        </div>
+                        <div class="text">
+                            <h2>Spicy Meals &amp; Multiple Choices</h2>
+                            <p>Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam,
+                                Lorem ipsum dolor sit amet, ea doming until epicuri iudicabit nam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        </div>
+    
+        <!-- End About -->
+    
+        <!-- Start Clients -->
+    
+        <div class="clients">
+            <h1>Our Clients</h1>
+            <div class="container">
+                <div class="client">
+                    <div class="image">
+                        <img src="{% static 'images/client1.png' %}">
+                    </div>
+                    <p>Tasty And Fresh Meals,I liKe Work Staff </p>
+                </div>
+    
+                <div class="client">
+                    <div class="image">
+                        <img src="{% static 'images/client2.png' %}">
+                    </div>
+                    <p>I Like Their Respect For Appointments,And Their Accept Criticism </p>
+                </div>
+    
+                <div class="client">
+                    <div class="image">
+                        <img src="{% static 'images/client3.png' %}">
+                    </div>
+                    <p>There Are Multiple Choices Of Meals,Spicy Food And Fresh Juice</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- End Clients -->
+    
+    
+    {% endblock %}
